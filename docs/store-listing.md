@@ -6,11 +6,16 @@ if the code changes, change these too.
 
 ## Before you submit
 
-- [ ] Replace `SET_CONTACT_EMAIL` in `docs/privacy.html` with a real address.
-- [ ] Publish `docs/` on GitHub Pages and paste the resulting privacy URL below.
-- [ ] Screenshots, 1280x800 or 640x400, at least one.
-- [ ] Store icon: `store/icon-128.png`.
+- [x] Replace `SET_CONTACT_EMAIL` in `docs/privacy.html` with a real address.
+- [x] Publish `docs/` on GitHub Pages and paste the resulting privacy URL below.
+- [x] Screenshots: `store/screenshots/`, six at 1280x800, upload in filename order.
+- [x] Store icon: `store/icon-128.png`.
 - [ ] Upload `releases/program-list-exporter-<version>.zip`.
+
+Regenerate the artwork with `pnpm icons` and `python3 scripts/make-screenshots.py`.
+The screenshots are composed from the raw captures in `screenshots/`; the caption
+beside each one is the matching step of the in-panel guided tour, so the listing
+and the product say the same thing.
 
 ## Listing
 
