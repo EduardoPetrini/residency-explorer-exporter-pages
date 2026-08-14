@@ -106,7 +106,7 @@ The three certifications are all true as written:
 
 **Privacy policy URL**
 
-    SET_PRIVACY_URL
+    https://eduardopetrini.github.io/residency-explorer-exporter-pages/privacy
 
 ## Publishing docs/ on GitHub Pages
 
